@@ -8,7 +8,7 @@ function loadBigFoot() {
   startGame.style.display = "none";
   let currentTime = timeLeft.textContent;
 
-  bigfoot.src = "/images/bigfoot.png";
+  bigfoot.src = "images/bigfoot.png";
   moveBigFoot();
   bigfoot.addEventListener("click", updateScore);
 
