@@ -1,0 +1,32 @@
+.main-game{
+    background-image: url('/images/forest.jpg');
+     background-repeat: no-repeat;
+  background-size: cover;
+  
+    height: 800px;
+}
+:root {
+  --color: brown;
+}
+
+.scoreWrapper,.timer,.time-text{
+    font-size: 50px;
+    color:red
+}
+.game{
+   visibility: hidden;
+}
+
+.start,.start-game{
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
+    margin: 200px auto 50px auto;
+}
+button{
+    padding: 10px;
+    width: 40%;
+    background-color: green;
+    color: white;
+    border: none;
+}
